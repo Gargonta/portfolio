@@ -21,16 +21,16 @@ const Ball = (props) => {
           <icosahedronGeometry args={[1, 1]} />
           <meshStandardMaterial
               color='#fff8eb'
-              polygonOffset
+              // polygonOffset
               polygonOffsetFactor={-5}
-              flatShading
+              // flatShading
           />
           <Decal
               position={[0, 0, 1]}
               rotation={[2 * Math.PI, 0, 6.25]}
               scale={1}
               map={decal}
-              flatShading
+              // flatShading
           />
         </mesh>
       </Float>
